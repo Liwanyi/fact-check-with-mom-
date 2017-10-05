@@ -1,0 +1,94 @@
+.featurette-divider {
+    margin: 80px 0;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #ffffff;
+}
+
+@media (min-width: 40em){
+    .blog-title {
+        font-size: 2.5rem;
+    }
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2rem;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #428bca;
+}
+
+blockquote > i {
+    color: #0d5490;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+.card{
+    margin-bottom: 2em;
+}
+
+p.lead{
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.second-half{
+    background-image:url("../images/chinatown2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 5em;
+}
+
+.second-half .card{
+    color: #666;
+}
+
+hr.featurette-divider{
+    border-color: rgba(0,0,0,.2);
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+/* ----------------- 
+    navbar 
+   -------------------*/
+
+/* link color */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+
+.nav-right > *{
+    display: none;
+}
+
+.nav-right > .show{
+    display:flex;
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color:rgba(0,0,0,0);
+    border: 1px solid white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
