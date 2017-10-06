@@ -2,6 +2,14 @@
     margin: 80px 0;
 }
 
+
+.img-middle{
+    height: auto;
+    max-width: 350px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
 hr {
     margin: 20px 0;
     border: 0;
@@ -32,6 +40,11 @@ blockquote > i {
 
 .card{
     margin-bottom: 2em;
+	    height: auto;
+    max-width: 390px;
+	padding: 2px;
+	float: right!important;
+	
 }
 
 p.lead{
@@ -91,4 +104,16 @@ span.bold{
     color: white;
     background-color: dodgerblue;
     border-color: dodgerblue;
+}
+
+.card-text{
+	font-style: italic;
+}
+
+.img-ielts{
+	margin-bottom: 2em;
+	height: auto;
+    max-width: 390px;
+	padding: 2px;
+	float: right!important;
 }
